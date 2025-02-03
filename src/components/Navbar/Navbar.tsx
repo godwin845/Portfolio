@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
 
   return (
     <div className="navbar">
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Logo" className='navLogo' />
       <img
         src={menu_open}
         onClick={openMenu}
@@ -52,31 +52,31 @@ const Navbar: React.FC = () => {
           className="nav-mob-close"
         />
         <li>
-          <AnchorLink className="anchor-link" href="#home">
+          <AnchorLink onClick={closeMenu} className="anchor-link" href="#home">
             <p onClick={() => setMenu('home')}>Home</p>
             {menu === 'home' && <img src={underline} alt="underline" />}
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#about">
+          <AnchorLink onClick={closeMenu} className="anchor-link" offset={50} href="#about">
             <p onClick={() => setMenu('about')}>About Me</p>
             {menu === 'about' && <img src={underline} alt="underline" />}
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#services">
+          <AnchorLink onClick={closeMenu} className="anchor-link" offset={50} href="#services">
             <p onClick={() => setMenu('services')}>Services</p>
             {menu === 'services' && <img src={underline} alt="underline" />}
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#work">
+          <AnchorLink onClick={closeMenu} className="anchor-link" offset={50} href="#work">
             <p onClick={() => setMenu('work')}>Portfolio</p>
             {menu === 'work' && <img src={underline} alt="underline" />}
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#contact">
+          <AnchorLink onClick={closeMenu} className="anchor-link" offset={50} href="#contact">
             <p onClick={() => setMenu('contact')}>Contact</p>
             {menu === 'contact' && <img src={underline} alt="underline" />}
           </AnchorLink>
