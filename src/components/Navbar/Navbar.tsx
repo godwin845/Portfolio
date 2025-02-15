@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import './Navbar.css';
-import logo from '../../assets/logo.svg';
 import underline from '../../assets/nav_underline.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import menu_open from '../../assets/menu_open.svg';
@@ -37,7 +36,7 @@ const Navbar: React.FC = () => {
 
   return (
     <div className="navbar">
-      <img src={logo} alt="Logo" className='navLogo' />
+      <h1 className='text-5xl font-bold'><span className='text-5xl font-bold bg-gradient-to-r from-[#DF8908] to-[#B415FF] rounded-3xl'>John </span>Wick</h1>
       <img
         src={menu_open}
         onClick={openMenu}

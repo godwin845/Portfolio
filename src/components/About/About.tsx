@@ -1,6 +1,5 @@
 import React from 'react'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/profile_img.svg'
 
 const About: React.FC = () => {
   return (
@@ -11,7 +10,7 @@ const About: React.FC = () => {
         </div>
         <div className="flex flex-col sm:flex-row gap-10 sm:gap-20">
             <div className="flex-shrink-0 w-full sm:w-auto">
-                <img src={profile_img} alt="Profile" className="w-full sm:w-[300px] h-auto rounded-full" />
+                <img src="https://imgs.search.brave.com/YrRRRbHRyozEWViEWBTpkyurIWjiVkW6GStNEg54Noc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dmVjdG9yc3RvY2su/Y29tL2kvcHJldmll/dy0xeC80Ni83Ni9w/ZXJzb24tZ3JheS1w/aG90by1wbGFjZWhv/bGRlci1tYW4tbWF0/ZXJpYWwtZGVzaWdu/LXZlY3Rvci0yMzgw/NDY3Ni5qcGc" alt="Profile" className="w-full sm:w-[300px] h-auto rounded-full" />
             </div>
             <div className="flex flex-col gap-10 sm:gap-20">
                 <div className="flex flex-col gap-5 text-lg sm:text-2xl font-medium">
@@ -37,12 +36,12 @@ const About: React.FC = () => {
                     </div>
                 </div>
                 <div className="flex w-full justify-around sm:justify-between mb-20 flex-wrap">
-                    <div className="flex flex-col items-center gap-2 transition-transform duration-500 hover:scale-110 w-full sm:w-auto">
+                    <div className="flex flex-col items-center gap-2 transition-transform duration-500 hover:scale-110 w-full sm:w-auto mb-2">
                         <h1 className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-[#DF8908] to-[#B415FF] bg-clip-text text-transparent">10+</h1>
                         <p className="text-lg sm:text-xl font-medium">YEARS OF EXPERIENCE</p>
                     </div>
                     <hr className="hidden sm:block" />
-                    <div className="flex flex-col items-center gap-2 transition-transform duration-500 hover:scale-110 w-full sm:w-auto">
+                    <div className="flex flex-col items-center gap-2 transition-transform duration-500 hover:scale-110 w-full sm:w-auto mb-2">
                         <h1 className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-[#DF8908] to-[#B415FF] bg-clip-text text-transparent">90+</h1>
                         <p className="text-lg sm:text-xl font-medium">PROJECTS COMPLETED</p>
                     </div>

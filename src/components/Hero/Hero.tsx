@@ -1,13 +1,12 @@
 import React from 'react'
-import profile_img from '../../assets/profile_img.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero: React.FC = () => {
   return (
     <div id='home' className='flex flex-col items-center gap-9 px-4'>
-        <img src={profile_img} alt="" className="mt-8 w-40 sm:w-48 md:w-64" />
+        <img src="https://imgs.search.brave.com/YrRRRbHRyozEWViEWBTpkyurIWjiVkW6GStNEg54Noc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dmVjdG9yc3RvY2su/Y29tL2kvcHJldmll/dy0xeC80Ni83Ni9w/ZXJzb24tZ3JheS1w/aG90by1wbGFjZWhv/bGRlci1tYW4tbWF0/ZXJpYWwtZGVzaWdu/LXZlY3Rvci0yMzgw/NDY3Ni5qcGc" alt="Hero" className="mt-10 rounded-full w-40 sm:w-48 md:w-64" />
         <h1 className="text-center text-4xl sm:text-5xl md:text-6xl font-semibold w-full sm:w-4/5 md:w-7/10">
-            <span className="bg-gradient-to-r from-[#DF8908] to-[#B415FF] bg-clip-text text-transparent">I'm Alex,</span> full-stack developer based in USA.
+            <span className="bg-gradient-to-r from-[#DF8908] to-[#B415FF] bg-clip-text text-transparent">I'm John Wick,</span> full-stack developer based in USA.
         </h1>
         <p className="w-full sm:w-3/4 md:w-1/2 text-center text-lg sm:text-xl leading-6 sm:leading-[40px]">
             I am a full-stack developer from California, USA with 10 years of experience.
